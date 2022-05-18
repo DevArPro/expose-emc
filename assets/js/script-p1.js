@@ -8,7 +8,7 @@ function piste1() {
   var ntexte4 =
     "Les <span class='color--red'>bas revenus</span> et les membres de la classe <span class='color--red'>moyenne inférieure</span> se montrent les plus enclins à faire figurer dans leur cercle relationnel digital les personnes les plus éloignées a priori : celles qu’on n’a jamais rencontrées mais qui semblent intéressantes.";
   var correction =
-    "Vous avez validé l'exercice. Il vous manquait certainement plus de la moitié des mots, mais ce n'est pas grave on est tous flemmards dans la vie. Vu que je suis gentil, j'ai affiché la correction à coté de chaque graphique. A présent, rendez-vous sur la page <a href=''> Carte mentale </a> pour la suite !";
+    "Vous avez validé l'exercice. Il vous manquait certainement plus de la moitié des mots, mais ce n'est pas grave on est tous flemmards dans la vie. Vu que je suis gentil, j'ai affiché la correction à coté de chaque graphique. A présent, rendez-vous sur la page <a href='../p3.html'> Carte mentale </a> pour la suite !";
   var cartementale = document.querySelector("section.carte--mentale");
   cartementale.classList.add("correction");
   document.getElementById("texteatrou-1").innerHTML = ntexte1;
