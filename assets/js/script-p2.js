@@ -13,7 +13,7 @@ function piste2() {
     "Clara : « Je me suis relevée et j’ai pu m’investir dans des activités. Il y a une bonne équipe ici, qui est très accueillante. C’est pour ça je me suis vite sentie à ma place ici, car j’aime bien aider les gens et je m’y suis retrouvée » <span class='color--red'>Association</span>";
 
   var correction =
-    "Vous avez validé l'exercice. Il vous manquait certainement plus de la moitié des mots et des définitions, mais ce n'est pas grave on est tous flemmards dans la vie. Vu que je suis gentil, j'ai affiché la correction à la place de chaque trou dans les différents textes. A présent, rendez-vous sur la page <a href=''> Carte mentale </a> pour la suite !";
+    "Vous avez validé l'exercice. Il vous manquait certainement plus de la moitié des mots et des définitions, mais ce n'est pas grave on est tous flemmards dans la vie. Vu que je suis gentil, j'ai affiché la correction à la place de chaque trou dans les différents textes. A présent, rendez-vous sur la page <a href='../pages/p3.html'> Carte mentale </a> pour la suite !";
   var cartementale = document.querySelector("section.carte--mentale");
   cartementale.classList.add("correction");
   document.getElementById("definition--1").innerHTML = ndef1;
