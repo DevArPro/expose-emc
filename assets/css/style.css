@@ -1,0 +1,367 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(252, 246, 241);
+  color: black;
+  overflow-x: hidden;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: rgb(192, 101, 27);
+}
+a.text {
+  color: rgb(192, 101, 27);
+  border-bottom: 1px solid rgb(192, 101, 27);
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+h1.white {
+  border-bottom: 1px solid white;
+}
+h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+
+
+.part {
+  margin-bottom: 50px;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  width: calc(100vw - 80px);
+  margin-bottom: 50px;
+}
+header .container--left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container--left img {
+  height: 45px;
+  width: auto;
+  margin-right: 20px;
+}
+header .container--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container--right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container--right ul li:nth-child(1),
+header .container--right ul li:nth-child(2) {
+  margin-right: 40px;
+}
+header .container--right .active {
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+}
+
+main {
+  padding: 0px 60px;
+  min-height: calc(100vh - 90px);
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+}
+.card {
+  height: 200px;
+  background-color: rgb(86, 194, 86);
+  width: 30%;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+.card:hover{
+  color: rgb(192, 101, 27);
+}
+.card.item-1,
+.card.item-2 {
+  margin-right: 30px;
+}
+.card .bg--card,
+.herrobanner .bg--card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+.card .infos--card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.card .infos--card .titre--card {
+  margin-right: 10px;
+  color: white;
+  font-weight: 600;
+}
+.card#P1--card {
+  background-image: url('../img/presence-sociaux.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card#P2--card {
+  background-image: url('../img/associations.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card#P3--card {
+  background-image: url('../img/social.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  color: rgb(192, 101, 27);
+  display: flex;
+  align-items: center;
+}
+.back .icon {
+  margin-right: 10px;
+}
+
+.herrobanner {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(86, 194, 86);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+.herrobanner#herro-p1 {
+  background-image: url('../img/presence-sociaux.jpg');
+}
+.herrobanner#herro-p2 {
+  background-image: url('../img/associations.jpg');
+}
+.herrobanner#herro-p3 {
+  background-image: url('../img/social.jpg');
+}
+.container--herro {
+  width: calc(100% - 40px);
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+section.consigne {
+  margin: 50px 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+section.consigne.search--words {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+section.consigne.search--words p {
+  padding: 12px 25px;
+  margin-right: 30px;
+  border-radius: 8px;
+  color: white;
+}
+section.consigne.search--words p.word--1 {
+  background-color: rgb(86, 194, 86);
+}
+section.consigne.search--words p.word--2 {
+  background-color: rgb(192, 101, 27);
+}
+section.consigne.search--words p.word--3 {
+  background-color: rgb(151, 85, 196);
+}
+.container--exercice {
+  margin: 30px 0;
+  padding: 0 30px 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#p1 .exercice {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 30px 0;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#p2 .exercice {
+  margin: 30px 0;
+}
+#p1 .exercice img {
+  width: 25vw;
+  height: auto;
+  margin-right: 50px;
+}
+.exercice p {
+  line-height: 1.9em;
+}
+#p1 .exercice p {
+  max-width: 50vw;
+}
+.exercice input.correction {
+  color: red;
+}
+button.button {
+  padding: 15px 20px;
+  background-color: rgb(86, 194, 86);
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 60px;
+}
+.exercice .color--red {
+  color: rgb(192, 101, 27);
+  font-weight: 600;
+  border-bottom: 1px solid rgb(192, 101, 27);
+}
+.exercice input {
+  font-size: 1.1em;
+}
+
+section.carte--mentale {
+  display: none;
+}
+section.carte--mentale.correction {
+  display: block;
+  margin: 0 0 50px 0;
+  padding: 30px;
+  background-color: rgb(192, 101, 27);
+  border-radius: 15px;
+  color: white;
+}
+section.carte--mentale p {
+  line-height: 1.9em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.groupes--top, .groupes--bottom {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+.groupes--top {
+  margin-bottom: 30px;
+}
+.groupes--bottom {
+  margin-bottom: 80px;
+}
+.groupe {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2em;
+  max-width: 220px;
+  color: white;
+}
+.groupe h3 {
+  padding-bottom: 20px;
+}
+.groupe p {
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+.groupe ul {
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+#groupe--1, #groupe--4 {
+  background-color: rgb(86, 194, 86);
+  margin-right: 20px;
+}
+#groupe--2, #groupe--5 {
+  background-color: rgb(151, 85, 196);
+  margin-right: 20px;
+}
+#groupe--3, #groupe--6 {
+  background-color: rgb(192, 101, 27);
+}
+
+#carte--mentale--img {
+  width: 80%;
+  margin-bottom: 40px;
+}
+#exo--synthese .exercices li {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+#exo--synthese .exercices li input,
+#exo--synthese .exercices li textarea {
+  margin-left: 20px;
+  font-size: 1.1em;
+}
+
+
+footer {
+  padding: 40px 60px;
+  width: calc(100vw - 120px);
+  background-color: rgb(151, 85, 196);
+  color: white;
+}
+footer .footer--principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .footer--infos {
+  max-width: 35%;
+}
+footer .footer--infos h3 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+footer .footer--principal ul li:nth-child(1) {
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+footer .footer--principal ul li {
+  margin-bottom: 7px;
+}
+footer .footer--principal ul li a {
+  color: white;
+}
