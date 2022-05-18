@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposé EMC - P1 - Les réseaux</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body id="p1">
+    <header class="header">
+        <div class="container--left">
+            <a href="#"><img src="../img/Logo-ecole-college-lycee.png" alt="Logo EMC"></a> <!--Logo-->
+            <div class="container--left--text">
+                <h3><a href="#">Exposé EMC</a></h3>
+                <p class="page--name">P1 - Les réseaux sociaux</p>
+            </div>
+        </div>
+
+        <div class="container--right">
+            <nav id="nav-menu"> <!--Navbar Menu-->
+                <ul> <!--Nav-->
+                    <li><a href="../../index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="reglement.html" class="nav-link">Règlement</a></li>
+                    <li><a href="pistes.html" class="nav-link">Pistes de travail</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="p1">
+            <div class="part back">
+                <i class="fa-solid fa-circle-chevron-left icon"></i>
+                <a href="../../index.html" class="text">Retour à l'accueil</a>
+            </div>
+            <div class="herrobanner" id="herro-p1">
+                <div class="bg--card"></div>
+                <div class="container--herro">
+                    <h1 class="white">P1 - Les réseaux sociaux</h1>
+                    <p>Piste de travail 1</p>
+                </div>
+            </div>
+        </section>
+        <section class="consigne">
+            <p class="consigne">Consigne : A l'aide des 4 graphiques ci-dessous, remplir les textes à trous. Validez l'exercice pour obtenir la correction. Ensuite, à l'aide des documents, de vos réponses et de la correction, établissez une carte mentale résumant votre thème. Faites-vite, le temps est compté !</p>
+        </section>
+        <section class="exercices">
+            <div class="exercices--top">
+                <div class="exercice" id="exercice--1">
+                    <img src="../img/Image1.png" alt="">
+                    <p id="texteatrou-1">L’enquête « Conditions de vie et Aspirations » du <input type="text" class="text--trou" id="p1-text1"></input> montre que 91% des membres des réseaux sociaux de 12ans et + y comptent des amis de toujours et 90% des membres de leur <input type="text" class="text--trou" id="p1-text2"></input> proche. Toutefois, le réseau en ligne élargit aussi le cercle de contacts à des « liens faibles » : 66% y intègrent des personnes rencontrées <input type="text" class="text--trou" id="p1-text3"></input> et pas moins d’un tiers des membres de réseaux sociaux intègrent dans leur cercle de relations des personnes jamais rencontrées.</p>
+                </div>
+                <div class="exercice" id="exercice--2">
+                    <img src="../img/Image2.png" alt="">
+                    <p id="texteatrou-2">Les plus <input type="text" class="text--trou" id="p1-text4"></input> incluent le plus facilement l’intégralité de leurs amis dans leur cercle de relations numériques. L’intégration de membres de la famille proche est peu dépendante de l’âge. S’agissant de la présence de personnes qui ont compté mais qu’on ne voit plus trop aujourd’hui, ce sont les 18-39 ans qui sont les plus enclins à les faire figurer dans leurs contacts (88-89%). Même chose s’agissant des personnes rencontrées de façon épisodique. En revanche, pour les inconnus, ce sont les <input type="text" class="text--trou" id="p1-text5"></input> ans qui se montrent les plus ouverts : à 41%, ils choisissent d’en faire figurer au moins certains dans le cercle relationnel, ce que les <input type="text" class="text--trou" id="p1-text6"></input> ans ne sont que 23% à faire.</p>
+                </div>
+            </div>
+            <div class="exercices--bottom">
+                <div class="exercice" id="exercice--3">
+                    <img src="../img/Image3.png" alt="">
+                    <p id="texteatrou-3">Tous les niveaux de <input type="text" class="text--trou" id="p1-text7"></input> intègrent dans des proportions similaires les amis ou les membres de la famille proche. Mais, <input type="text" class="text--trou" id="p1-text8"></input> on est diplômé et plus on se montre accueillant avec des personnes perdues de vue ou avec qui le contact est intermittent. Alors, que ce sont les <input type="text" class="text--trou" id="p1-text9"></input> qui sont les plus ouverts à l’intégration dans leur cercle de relations de personnes jamais rencontrées (41%) et pour qui les réseaux sociaux en ligne permettent de nourrir une sociabilité un peu moins riche en moyenne par ailleurs.</p>
+                </div>
+                <div class="exercice" id="exercice--4">
+                    <img src="../img/Image4.png" alt="">
+                    <p id="texteatrou-4">Les <input type="text" class="text--trou" id="p1-text10"></input> et les membres de la classe <input type="text" class="text--trou" id="p1-text11"></input> <input type="text" class="text--trou" id="p1-text12"></input> se montrent les plus enclins à faire figurer dans leur cercle relationnel digital les personnes les plus éloignées a priori : celles qu’on n’a jamais rencontrées mais qui semblent intéressantes.</p>
+                </div>
+            </div>
+            <button class="button" onclick="piste1()">Valider l'exercice</button>
+        </section>
+        <section class="carte--mentale">
+            <p id="texte--correction"></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer--principal">
+            <div class="footer--infos">
+                <h3>Exposé EMC - La recherche de nouveaux liens sociaux</h3>
+                <p>Ce site a été entièrement réalisé dans le cadre du projet EMC de la classe de 1A de l'institution Saint Charles, en coopération avec M. BOUIX.</p>
+            </div>
+            <ul>
+                <li>Plan du site</li>
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="reglement.html">Règlement</a></li>
+                <li><a href="pistes.html">Pistes de travail</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../js/script-p1.js"></script>
+    <script src="https://kit.fontawesome.com/33ad9a8292.js" crossorigin="anonymous"></script>
+</body>
+</html>
