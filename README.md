@@ -1,5 +1,7 @@
 # Site vitrine | Exposé d'EMC - La recherche de nouveaux liens sociaux
 
+Accéder au site : https://devarpro.github.io/expose-emc/
+
 ## Présentation du projet
 
 Ce site web statique de 7 pages est le support d'un exposé dans le cadre de mes études. Il s'agit donc d'un exposé interactif; les élèves peuvent naviguer et faire les différentes activités présentes sur le site en autonomie, avec un système de correction des exercices en javascript. 
